@@ -28,3 +28,7 @@ host: 127.0.0.1
 2. 如果是PAK文件，支持TMS和XYZ两种请求方式：
     1. XYZ服务 http://ip:host/tile/{pak_name_without_extension}/xyz/{z}/{x}/{y}.png
     2. TMS服务 http://ip:host/tile/{pak_name_without_extension}/tms/tilemapresource.xml
+
+## 编译
+1. 安装Rust
+2. 在工程目录下运行`cargo build --release`，编译后的程序在当前目录的target/release下
